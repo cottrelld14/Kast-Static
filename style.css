@@ -1,0 +1,275 @@
+
+.navHeader {
+    background-image: url("./assets/gradient-violet-bg.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+    background-size: auto;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: rgba(103, 128, 118, 0.555);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.logo_kast {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: fixed;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.logo_kast:hover {
+    transform: scale(1.1);
+}
+
+
+.dropbtn1 {
+    background-color: transparent;
+    color: white;
+    font-weight:bold;
+    margin-right: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      text-decoration: underline;
+      color: black;
+}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+.dropbtn2 {
+    background-color: transparent;
+    color: white;
+    font-weight:bold;
+    margin-right: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn3 {
+    background-color: transparent;
+    color: white;
+    font-weight:bold;
+    margin-right: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn4 {
+    background-color: transparent;
+    color: white;
+    font-weight:bold;
+    margin-right: 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn4:hover {
+    text-decoration: underline;
+}
+
+
+.dropbtn5 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    margin-right: 5px;
+    font-size: -.5em;
+    display: block;
+    transition: .2s;
+    cursor: pointer;
+    
+}
+
+.dropbtn5:hover {
+    transform: scale(1.04);
+}
+
+
+
+
+.main-photo {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.title {
+    font-size: 23px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.body-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.bottom-button {
+    color: white;
+    background-color: #fe9000;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: space-evenly;
+    display: block;
+    font-family: sans-serif;
+    width: 220px;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.bottom-button:hover {
+    transform: scale(1.04);
+}
+
+
+
+.secondpart{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.sponsors {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 12px;
+    color: darkslategrey
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 150px 150px;
+}
+
+#EveningStandard {
+    margin-top: 100px;
+}
+
+#BBC {
+    margin-top: 100px;   
+}
+
+#DAILYMAIL {
+    margin-top: 100px;
+}
+
+.Quote p {
+    color: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    text-align: center;
+    font-style: italic;
+    margin-top:5px;
+    margin-bottom: 80px;
+}
+
+.body3{
+    background-image: url(assets/green-bg.jpeg);
+    height: auto;
+}
+.body3Title{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 55px;
+}
+
+.body3Text{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 1.75;
+}
+.button{
+    width: 175px;
+    height: 50px;
+    padding: 1px 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    border-radius: 2px;
+    background: #fe9000;
+    color: #ffff;
+    border: transparent;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 1.44px;
+    margin-left: 40%;
+    
+}
+
+
+
